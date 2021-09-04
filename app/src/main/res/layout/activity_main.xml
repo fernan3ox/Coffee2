@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/black"
+    android:columnCount="3">
+
+    <ImageView
+        android:src="@drawable/cafe1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_columnSpan="2"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/cafe2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_rowSpan="2"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/cafe3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/cafe4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/cafe3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:src="@drawable/cafe4"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/cafe1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/cafe2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/cafe1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_columnSpan="2"
+        />
+
+
+
+
+
+
+
+
+</GridLayout>
